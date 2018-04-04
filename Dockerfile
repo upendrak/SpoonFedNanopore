@@ -34,7 +34,7 @@ RUN wget https://github.com/marbl/canu/releases/download/v1.7/canu-1.7.Linux-amd
 RUN tar -xvf canu-1.7.Linux-amd64.tar.xz
 
 # Install blast plus
-RUN wget ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/ncbi-blast-2.7.1+-x64-linux.tar.gz
+RUN wget https://de.cyverse.org/dl/d/E18F7BC2-2697-40D8-AC44-A695907BC957/ncbi-blast-2.7.1+-x64-linux.tar.gz
 RUN tar -zxvf ncbi-blast-2.7.1+-x64-linux.tar.gz
 
 # it needs perl-doc
