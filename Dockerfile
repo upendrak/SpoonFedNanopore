@@ -91,4 +91,4 @@ RUN cp minimap2-2.10_x64-linux/minimap2 /usr/bin/.
 
 WORKDIR /work
 
-CMD ["/usr/local/bin/jupyter", "notebook", "--port", "8888", "--ip", "0.0.0.0", "--allow-root"]
+CMD ["/usr/local/bin/jupyter", "notebook", "--ip", "0.0.0.0"]
